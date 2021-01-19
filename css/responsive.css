@@ -1,0 +1,193 @@
+@media screen and (max-width: 1400px) { 
+	.ban-text h4 {
+		font-size: 70px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	ul.navbar-nav a {
+	    font-size: 16px;
+	    padding: 10px 1px !important;
+	    margin: 0 18px;
+	}
+
+	.ban-text h4 {
+		font-size: 72px;
+		line-height: 70px;
+		text-align: center;
+	}
+
+	.fc-loc.fc-con ul li {
+	    line-height: 18px;
+	}
+
+	.fc-loc {
+		font-size: 11px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+
+header#header .collapse.show {
+    display: block;
+    text-align: right;
+}
+
+a.nav-link.sp-dar {
+    display: block;
+    margin: 15px auto;
+}
+
+
+ul.navbar-nav.mr-auto {
+    padding: 30px 0;
+}
+
+	.abt-lft {
+	    position: relative;
+	    background: #fff;
+	    padding: 45px 0 45px 45px;
+	}
+
+	.pr-head h4 {
+		font-size: 44px;
+	}
+
+
+	a.ban-btn.prim.btn2 {
+	    font-size: 12px;
+	}
+
+	.mot-video {
+	    margin-top: 45px;
+	}
+
+	.headercolor a.navbar-brand img {
+		width: 45px;
+	}
+
+	button.navbar-toggler {
+	    margin-top: 30px;
+	}
+
+	.testi-slide .item {
+	    display: inline;
+	    width: 100%;
+	}
+
+	.tp-flex {
+	    width: 100%; 
+	}
+
+	.tp-flex.tp-review {
+		margin: 0;
+		padding: 20px ;
+	}
+
+	.ban-text h4 {
+		font-size: 52px;
+		line-height: 70px
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 725px) { 
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+	
+	.heading img {
+	    width: 250px;
+	}
+
+	.headercolor a.navbar-brand img {
+	    width: 50px;
+	}
+
+	.headercolor button.navbar-toggler {
+	    margin-top: 30px;
+	}
+
+
+	.prdts-wrp.pr1 {
+	    width: 100%;
+	    height: 220px;
+	}
+
+	section.bd-sec.prdts {
+		display: block;
+	}
+
+	.prdts-wrp.pr2 {
+		width: 100%;
+	}
+
+	.ba-text {
+		left: 50%;
+		top: 505;
+	}
+
+	.ba-text h3 {
+		font-size: 42px;
+	}
+
+	a.navbar-brand img {
+	    width: 80px;
+	}
+
+	a.ban-btn.prim {
+	    margin-bottom: 10px;
+	}
+
+	.mv-place h5 span {
+	    margin-top: 10px;
+	    display: inline-block;
+	}
+
+	h4.mot-head {
+		text-align: center;
+	}
+
+	.ban-text h4 {
+		font-size: 23px;
+		line-height: 30px;
+	}
+
+	.ban-text p {
+		font-size: 12px;
+	}
+
+	.StickySidebar {
+		height: auto;
+	}
+
+	.fc-detail {
+	    display: block;
+	}
+
+	.fc-loc {
+	    width: 100%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 365px) { 
+
+
+
+}

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'Open Sans', serif;
+/*    letter-spacing: 1px;*/
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+:focus {
+outline: 0;
+text-decoration: none;
+} 
+
+
+
+#header button.navbar-toggler:focus {
+    outline: none;
+}
+
+/*i.fas.fa-phone {
+    transform: rotate(110deg);
+}*/
+
+a.ban-btn.prim {
+    background: #e58c23;
+        border: 1px solid #e58c23;
+}
+
+a.ban-btn.prim:hover, a.ban-btn.sec:hover {
+    background: transparent;
+    color: #e58c23;
+    border: 1px solid #e58c23;
+}
+
+a.ban-btn.sec {
+    color: #e58c23;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.ban-btn {
+
+    padding: 0 20px;
+    height: 40px;
+    margin-right: 20px;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: .4px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay.ban-over {
+    background: rgba(0,0,0,0.2);
+}
+
+.overlay.alpr {
+    background: rgba(0,0,0,0.3);
+}
+
+.trans5 {
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.trans3  {
+    transition: all 0.3s ease-out;
+}
+
+.banner-overlay {
+    background: rgba(0,0,0,0.2);
+}
+
+#gt-top-button {
+    display: inline-block;
+    background-color: #e58c23;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#gt-top-button.show {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+}
+
+#gt-top-button::after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 10px;
+    background: url(../images/up.png);
+    background-position: center;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+
+
+.bd-sec {
+    position: relative;
+}
+
+
+span.navbar-toggler-icon:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 1px;
+    background: #fff;
+
+}
+
+span.navbar-toggler-icon {
+    position: relative;
+    display: flex;
+    margin: -22px;
+}
+
+.inp-text {
+    position: absolute;
+    z-index: 99;
+    font-size: 44px;
+    color: #fff;
+    letter-spacing: 4px;
+    top: 60%;
+    left: 50%;
+    font-weight: 600;
+    transform: translate(-50%,-50%);
+     font-family: 'Playfair Display', serif;
+     text-align: center;
+}
+
+.inp-text  h4 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.inp-text p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+.margin40{
+    margin: 40px 0;
+}
+
+.margin80{
+    margin: 80px 0;
+}
+
+.margin160{
+    margin: 160px 0 80px;
+}
+
+.txt-rt {
+    text-align: right;
+}
+
+
+a.btn1 {
+    display: block;
+    text-align: right !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #e58c23;
+}
+
+span.btn-icn {
+    color: #fff;
+    background: #e58c23;
+    border-radius: 50%;
+    padding: 1px 5px 1px 4px;
+    margin-left: 8px;
+}
+
+.box-shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.ban-btn i {
+    margin-left: 6px;
+}
+
+.col-md-6.row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+
+.btn-hover.trans5:hover {
+    color: #e58c23;
+    background: #fff;
+    border: 1px solid #e58c23;
+}
